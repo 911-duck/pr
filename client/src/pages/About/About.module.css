@@ -1,0 +1,88 @@
+.container{
+    width: 100%;
+	height: 492px; /*492 432 401*/
+	overflow:hidden;
+	background-color: #3C3C3C;
+	animation: animContainer 0.8s ease-in-out 1s 1 forwards running;
+}
+
+@keyframes animContainer {
+	0% {
+		height: 492px;
+	}
+	100% {
+		height: 1325px;
+	}
+}
+
+.sectionOne{
+	width: 100%;
+	height: 492px;
+	background-color: #3C3C3C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+	flex-direction: column;
+	position: relative;
+	padding-bottom: 80px;
+}
+
+.sectionOne>*{
+	z-index: 1;	
+}
+
+.bgPicture{
+	background-image: url("./../../../public/img/Frame 3.png");
+	width: 920px;
+	height: 403px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 0;
+}
+
+.header{
+	text-align: center;
+	font-size: 64px;
+	max-width: 912px;
+	color: white;
+}
+
+.sectionSec{
+	width: 100%;
+	height: 432px;
+	background-color: #292929;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 48px;
+	flex-direction: column;
+	color: white;
+}
+
+.list{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 24px;
+}
+
+.text{
+	text-align: center;
+}
+
+.sectionThr{
+	width: 100%;
+	height: 401px;
+	background-color: #3C3C3C;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}

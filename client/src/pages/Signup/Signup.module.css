@@ -1,0 +1,54 @@
+.container{
+    width: 100%;
+    height: 529px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.console{
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 726px;
+    height: 0px;
+    background-color: #181818;
+    border-radius: 15px;
+    animation: animConsole 0.8s ease-in-out 0.3s 1 forwards running;
+}
+
+@keyframes animConsole {
+    0% {
+        height: 0px;
+    }
+    100% {
+        height: 437px;
+    }
+}
+
+.console>*{
+    margin-left: 20px;
+}
+
+.up{
+    width: 100%;
+    height: 31px;
+    background-color: #292929;
+}
+
+.centred{
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    font-size: 20px;
+    color: #D9D9D9;
+}

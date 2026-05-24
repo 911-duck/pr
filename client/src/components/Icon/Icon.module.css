@@ -1,0 +1,5 @@
+.icon{
+    background-image: url("./../../../public/img/mainIcon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}

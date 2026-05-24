@@ -1,0 +1,19 @@
+.input{
+    width: 200px;
+    height: 25px;
+    background-color: #292929;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: white;
+    padding: 5px;
+    border: 2px solid#5f5f5f;
+}
+
+.input:focus{
+    border: 2px solid#414141;
+}
+
+.error{
+    border: 2px solid red;
+}

@@ -1,0 +1,22 @@
+.area{
+    background:none;
+    border: none;
+    outline: none;
+    color: #25ff58;
+    font-size: 20px;
+    resize: none;
+    height: 100%;
+    width: 100%;
+}
+
+.area::-webkit-scrollbar {
+width: 17px;
+}
+
+.area::-webkit-scrollbar-track {
+background: #f1f1f100;
+}
+
+.area::-webkit-scrollbar-thumb {
+background: #292929;
+}

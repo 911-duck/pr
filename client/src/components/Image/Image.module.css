@@ -1,0 +1,33 @@
+.image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 14px;
+    background-position: 50% 50%;
+}
+
+.imageH{
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 14px;
+    background-position: 50% 50%;
+    transition: all 0.2s;
+}
+
+ 
+.imageW{
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 14px;
+    background-position: 50% 50%;
+transform: perspective(1000px) rotateY(0deg) rotateX(0deg);
+    transition: all 0.2s;
+}   
+
+.imageH:hover{
+    margin-bottom: 30px;
+}
+
+.imageW:hover{
+    margin-top: 10px;
+    transform: perspective(1000px) rotateY(15deg) rotateX(5deg);
+}

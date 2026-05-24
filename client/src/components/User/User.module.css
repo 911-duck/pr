@@ -1,0 +1,22 @@
+.icon{
+    width: 300px;
+    height: 47px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.bg{
+    background-color: aliceblue;
+    width: 47px;
+    height: 47px;
+}
+
+.name{
+    width: 223px;
+    font-size: 32px;
+    text-align: left;
+    color: #ffffff;
+}
