@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE_URL = 'https://loving-creativity-production-86a4.up.railway.app/'
+const API_BASE_URL = 'https://loving-creativity-production-86a4.up.railway.app'
 
 export const getTask = async (level) => {
     try {
