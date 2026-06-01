@@ -58,7 +58,7 @@ function About() {
               color={"#6a6a6a00"}
               heigth={93}
               size={100}
-              hover={2}
+              hover={1}
             />
             <Image
               url={"./../../../img/java.png"}
@@ -101,12 +101,11 @@ function About() {
             <span className={styles.header}>
                 зарабатывайте баллы за задания
             </span>
-            <Image 
-              url={"./../../../img/Frame 3.png"}
-              color={""}
-              heigth={186}
-              width={722}
-              size={100}
+            <Image
+              url={"./../../../img/cs.png"}
+              color={"#6a6a6a00"}
+              heigth={93}
+              size={80}
               hover={1}
             />
         </section>
