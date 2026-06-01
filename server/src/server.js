@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000
 app.use(
 	cors({
 		methods: 'GET, POST, DELETE, PUT',
-		origin: 'https://pr-1iqz.vercel.app',
+		origin: 'https://pr-1-tizd.onrender.com',
 		credentials: true
 	})
 )
