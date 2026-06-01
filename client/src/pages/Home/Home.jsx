@@ -119,7 +119,7 @@ function Home() {
             heigth={112}
             width={330}
             size={100}
-            hover={2}
+            hover={1}
           />
           <div className={styles.centred}>
             <Button
