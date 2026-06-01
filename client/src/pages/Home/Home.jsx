@@ -114,7 +114,7 @@ function Home() {
           </span>
           <Choice values={values} names={values} color={"#6AC968"} />
           <Image
-            url={"./../../../img/Frame 5.png"}
+            url={"./../../../img/Frame%205.png"}
             color={""}
             heigth={112}
             width={330}
