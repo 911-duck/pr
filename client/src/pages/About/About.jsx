@@ -54,7 +54,7 @@ function About() {
           </span>
           <div className={styles.list}>
             <Image
-              url={"./../../../../public/img/js.png"}
+              url={"./../../public/img/js.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={100}
