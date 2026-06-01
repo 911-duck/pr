@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_BASE_URL = 'https://pr-jhkv-alpha.vercel.app'
+const API_BASE_URL = 'https://pr-9lra.onrender.com'
 
 export const getTask = async (level) => {
     try {
