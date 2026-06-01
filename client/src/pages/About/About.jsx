@@ -54,42 +54,42 @@ function About() {
           </span>
           <div className={styles.list}>
             <Image
-              url={"./../../public/img/js.png"}
+              url={"./../../../img/js.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={100}
               hover={1}
             />
             <Image
-              url={"./../../../../public/img/java.png"}
+              url={"./../../../img/java.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={100}
               hover={1}
             />
             <Image
-              url={"./../../../../public/img/python.png"}
+              url={"./../../../img/python.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={80}
               hover={1}
             />
             <Image
-              url={"./../../../../public/img/cpp.png"}
+              url={"./../../../img/cpp.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={80}
               hover={1}
             />
             <Image
-              url={"./../../../../public/img/c.png"}
+              url={"./../../../img/c.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={70}
               hover={1}
             />
             <Image
-              url={"./../../../../public/img/cs.png"}
+              url={"./../../../img/cs.png"}
               color={"#6a6a6a00"}
               heigth={93}
               size={80}
@@ -102,7 +102,7 @@ function About() {
                 зарабатывайте баллы за задания
             </span>
             <Image 
-                url={"./../../../../public/img/Frame 4.png"}
+                url={"./../../../img/Frame 4.png"}
               color={""}
               heigth={186}
               width={722}
