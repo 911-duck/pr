@@ -58,7 +58,7 @@ function About() {
               color={"#6a6a6a00"}
               heigth={93}
               size={100}
-              hover={1}
+              hover={2}
             />
             <Image
               url={"./../../../img/java.png"}
