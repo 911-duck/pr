@@ -103,10 +103,11 @@ function About() {
             </span>
             <Image
               url={"./../../../img/Frame%204.png"}
-              color={"#6a6a6a00"}
+              color={""}
               heigth={186}
-              size={80}
-              hover={1}
+              width={722}
+              size={100}
+              hover={2}
             />
         </section>
       </div>
