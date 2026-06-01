@@ -102,9 +102,9 @@ function About() {
                 зарабатывайте баллы за задания
             </span>
             <Image
-              url={"./../../../img/cs.png"}
+              url={"./../../../img/Frame 4.png"}
               color={"#6a6a6a00"}
-              heigth={93}
+              heigth={186}
               size={80}
               hover={1}
             />
